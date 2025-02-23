@@ -14,11 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -26,9 +30,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "K:\\Visual Studio 2022\\Chuong1_BaiTap2_Csharp\\Chuong1_BaiTap2\\bai1\\bai1\\Program.cs",
               "RelativeDocumentMoniker": "bai1\\Program.cs",
-              "ToolTip": "K:\\Visual Studio 2022\\Chuong1_BaiTap2_Csharp\\Chuong1_BaiTap2\\bai1\\bai1\\Program.cs",
-              "RelativeToolTip": "bai1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "K:\\Visual Studio 2022\\Chuong1_BaiTap2_Csharp\\Chuong1_BaiTap2\\bai1\\bai1\\Program.cs*",
+              "RelativeToolTip": "bai1\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T10:42:07.052Z",
               "EditorCaption": ""

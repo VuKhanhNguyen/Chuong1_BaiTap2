@@ -22,10 +22,13 @@ namespace bai1
 
         static void Main(string[] args)
         {
+            int a = 1, b = 1, c = 1;
             Program p = new Program();
             p.OptionalParameter("Messi");
             //OptionalParameter();
             p.OptionalParameter();
+            p.OptionalParameter2(a, b, c);
+            p.OptionalParameter2(a, b);
 
         }
     }
