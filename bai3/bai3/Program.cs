@@ -25,6 +25,10 @@ namespace bai3
 
         static void Main(string[] args)
         {
+            //string match_118;
+            FootBallMatch("Bayern vs Frankfurt");
+            FootBallMatch("Real Madrid vs Girona",FootballMatchProgress_118.InMatch);
+            FootBallMatch("Liverpool vs Man city", FootballMatchProgress_118.Canceled);
         }
     }
 }
