@@ -8,6 +8,17 @@ namespace bai4
 {
     internal class Program
     {
+        //Làm một bài tập sử dụng array, sử dụng foreach
+        static void BayernPlayer(string[] arr_118)
+        {
+            foreach (string a_118 in arr_118)
+            {
+                Console.WriteLine(a_118);
+            }
+        }
+
+
+
         static void Main(string[] args)
         {
         }
