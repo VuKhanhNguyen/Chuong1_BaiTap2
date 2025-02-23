@@ -11,11 +11,18 @@ namespace bai3
     {
         enum FootballMatchProgress
         {
+            NotStart,
             InMatch,
             HalfTime,
             FullTime,
             Canceled,
         }
+
+        static void FootBallMatch(string match_118, FootballMatchProgress fmp_118 = FootballMatchProgress.NotStart)
+        {
+            Console.WriteLine("{0} is {1}", match_118, fmp_118);
+        }
+
         static void Main(string[] args)
         {
         }
