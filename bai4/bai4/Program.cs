@@ -17,10 +17,17 @@ namespace bai4
             }
         }
 
-
+        static void BayernSplitCharacters(char[] arr2_118)
+        {
+            foreach (char a2_118 in arr2_118)
+            {
+                Console.WriteLine(a2_118);
+            }
+        }
 
         static void Main(string[] args)
         {
+
         }
     }
 }
