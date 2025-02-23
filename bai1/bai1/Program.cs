@@ -15,20 +15,20 @@ namespace bai1
         {
             Console.WriteLine("{0} la G.O.A.T cua lang tuc cau", s1_118);
         }
-        public void OptionalParameter2(int a, int b, int c = 2)
+        public void OptionalParameter2(int a_118, int b_118, int c_118 = 2)
         {
-            Console.WriteLine("{0}+{1}+{2}={3}", a, b, c, a + b + c);
+            Console.WriteLine("{0}+{1}+{2}={3}", a_118, b_118, c_118, a_118 + b_118 + c_118);
         }
 
         static void Main(string[] args)
         {
-            int a = 1, b = 1, c = 1;
+            int a_118 = 1, b_118 = 1, c_118 = 1;
             Program p = new Program();
             p.OptionalParameter("Messi");
             //OptionalParameter();
             p.OptionalParameter();
-            p.OptionalParameter2(a, b, c);
-            p.OptionalParameter2(a, b);
+            p.OptionalParameter2(a_118, b_118, c_118);
+            p.OptionalParameter2(a_118, b_118);
 
         }
     }
