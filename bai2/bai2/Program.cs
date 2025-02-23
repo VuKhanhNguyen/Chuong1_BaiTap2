@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace bai2
 {
     //Làm một bài tập sử dụng Enum, có sử dụng các phương thức hỗ trợ nó để in ra màn hình
-        enum FootballClub
+        enum FootballClub_118
         {
             Bayern = 1,
             Leverkusen,
@@ -22,16 +22,19 @@ namespace bai2
 
         public void rankingClub()
         {
-            int i;
-            FootballClub[] fc = (FootballClub[])Enum.GetValues(typeof(FootballClub));
-            for(i=1; i <= fc.Length; i++)
+            int i_118 = 1;
+            FootballClub_118[] fc_118 = (FootballClub_118[])Enum.GetValues(typeof(FootballClub_118));
+            foreach (FootballClub_118 f_118 in fc_118)
             {
-                Console.WriteLine("{0}. {1}",i,fc);
+                Console.WriteLine("{0}. {1}",i_118,f_118);
+                i_118++;
             }
         }
 
         static void Main(string[] args)
         {
+            Program p_118 = new Program();
+            p_118.rankingClub();
         }
     }
 }
