@@ -23,10 +23,9 @@ namespace bai4
         {
             int index_118 = 1;
             foreach (char a2_118 in arr2_118)
-            {
-
+            { 
                 Console.WriteLine("{0}. {1}",index_118,a2_118);
-                index_118++;
+                index_118++;   
             }
         }
 
