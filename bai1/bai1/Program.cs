@@ -19,6 +19,11 @@ namespace bai1
             Sane
         }
 
+        public void OptionalParameter(string s1_118 = "Nguyễn Vũ Khanh")
+        {
+            Console.WriteLine("{0} là G.O.A.T của làng túc cầu", s1_118);
+        }
+
         static void Main(string[] args)
         {
         }
