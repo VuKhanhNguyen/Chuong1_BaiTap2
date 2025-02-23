@@ -9,7 +9,7 @@ namespace bai3
     //Làm một bài tập có định nghĩa lớp Enum, phương thức có dùng Optional parameter, kết hợp cả hai trong bài tập.
     internal class Program
     {
-        enum FootballMatchProgress
+        enum FootballMatchProgress_118
         {
             NotStart,
             InMatch,
@@ -18,7 +18,7 @@ namespace bai3
             Canceled,
         }
 
-        static void FootBallMatch(string match_118, FootballMatchProgress fmp_118 = FootballMatchProgress.NotStart)
+        static void FootBallMatch(string match_118, FootballMatchProgress_118 fmp_118 = FootballMatchProgress_118.NotStart)
         {
             Console.WriteLine("{0} is {1}", match_118, fmp_118);
         }
