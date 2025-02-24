@@ -17,10 +17,10 @@ enum PointColor_118
     internal class Point
     {
         
-        private int x_118 { get; set; }
-        private int y_118 { get; set; }
+        public int x_118 { get; set; }
+        public int y_118 { get; set; }
 
-        PointColor_118 pc_118 { get; set; }
+        public PointColor_118 pc_118 { get; set; }
 
         public Point(int x_118, int y_118, PointColor_118 pc_118)
         {
@@ -31,7 +31,7 @@ enum PointColor_118
 
         public void PointStatus()
         {
-            Console.WriteLine("Point co toa do ({0},{1}) va co mau {3}", this.x_118, this.y_118, this.pc_118);
+            Console.WriteLine("Point co toa do ({0},{1}) va co mau {3}", this.x_118, this.y_118, this.);
         }
     }
 }
