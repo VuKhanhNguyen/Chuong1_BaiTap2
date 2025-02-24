@@ -9,19 +9,19 @@ namespace bai5
     internal class Rectangle
     {
 
-        Point upper_left { get; set; }
-        Point bottom_right { get; set; }
+        Point upper_left_118 { get; set; }
+        Point bottom_right_118 { get; set; }
 
-        public Rectangle(Point upper_left, Point bottom_right)
+        public Rectangle(Point upper_left_118, Point bottom_right_118)
         {
-            this.upper_left = upper_left;
-            this.bottom_right = bottom_right;
+            this.upper_left_118 = upper_left_118;
+            this.bottom_right_118 = bottom_right_118;
         }
 
         public void RectangleStastus()
         {
-            Console.WriteLine("Rectangle upper left co toa do ({0},{1}) va co mau {3}", upper_left.x_118, upper_left.y_118, upper_left.pc_118);
-            Console.WriteLine("Rectangle bottom right co toa do ({0},{1}) va co mau {3}", bottom_right.x_118, bottom_right.y_118, bottom_right.pc_118);
+            Console.WriteLine("Rectangle upper left co toa do ({0},{1}) va co mau {2}", upper_left_118.x_118, upper_left_118.y_118, upper_left_118.pc_118);
+            Console.WriteLine("Rectangle bottom right co toa do ({0},{1}) va co mau {2}", bottom_right_118.x_118, bottom_right_118.y_118, bottom_right_118.pc_118);
         }
     }  
 }
