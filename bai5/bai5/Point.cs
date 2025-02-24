@@ -31,7 +31,7 @@ enum PointColor_118
 
         public void PointStatus()
         {
-            Console.WriteLine("Point co toa do ({0},{1}) va co mau {3}", this.x_118, this.y_118, this.pc_118);
+            Console.WriteLine("Point co toa do ({0},{1}) va co mau {2}", this.x_118, this.y_118, this.pc_118);
         }
     }
 }
